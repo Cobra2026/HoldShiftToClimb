@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Hold Shift to Climb.sln"
+    "dotnet.defaultSolution": "HoldShiftToClimb.sln"
 }
