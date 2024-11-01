@@ -26,10 +26,6 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         Debug.Log("OnDrag");
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        /* Moves the object by adding the difference (delta) in the mouse/touch position to the object's
-        current anchored position. eventData.delta is the change in position of the pointer between frames,
-        and canvas.scaleFactor adjusts the movement based on the canvas's scaling (to keep the movement
-        consistent across different screen resolutions). */
     }
 
     public void OnEndDrag(PointerEventData eventData)

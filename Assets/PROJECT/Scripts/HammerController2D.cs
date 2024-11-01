@@ -2,64 +2,132 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class HammerController2D : MonoBehaviour
 {
-    private Rigidbody2D hammerRigidbody;   // The hammer's Rigidbody2D component
-    private Vector2 lastMousePosition;     // Store the last mouse position
-    private bool isDragging = false;       // Is the mouse button being held
-    [SerializeField] private int mouseID;
+    private Rigidbody2D hammerRigidbody;
+    private Vector2 lastMousePosition;
+    private Camera mainCamera;
+    private bool isClimbing = false;
 
-    public StopAtMaxDistance2D stopAtMaxDistance2D;
+    [SerializeField] private int mouseID;
+    [SerializeField] private Transform objectX;
+    [SerializeField] private float radius = 1.01f;
+    [SerializeField] private Rigidbody2D objectXRigidbody;
 
     void Start()
     {
         hammerRigidbody = GetComponent<Rigidbody2D>();
-        stopAtMaxDistance2D = FindObjectOfType<StopAtMaxDistance2D>();
+        mainCamera = Camera.main;
     }
 
     void Update()
     {
+        GravityToggle();
+        Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
+        float distance = direction.magnitude;
+
+        if (Input.GetMouseButton(mouseID))
+        {
         HandleMouseInput();
+        CheckForMax();
+        // if (distance >= radius)
+        // {
+        //     Vector2 directionNormalized = direction.normalized;
+        //     // Vector2 newPosition = (Vector2)objectX.position + directionNormalized * radius;
+                        
+        //     Debug.Log( "Distance: " + distance);
+        //     hammerRigidbody.MovePosition((Vector2)objectX.position + directionNormalized * radius);
+        // }
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Distance: " + distance);
+        }
     }
 
     private void HandleMouseInput()
     {
-        float currentDistance = stopAtMaxDistance2D.currentDistance + 1;
-        float maxDistance = stopAtMaxDistance2D.maxDistance;
-
+        float checkRadius = 0.1f;
+        
         if (Input.GetMouseButtonDown(mouseID))
         {
-            // Initialize the last mouse position when the dragging starts
-            if (currentDistance <= maxDistance)
-            {
-                Debug.Log("Yes it's working 1");
-            lastMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            isDragging = true;
-            }
+            lastMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Debug.Log("Mouse down at: " + lastMousePosition);
         }
 
-        if (Input.GetMouseButton(mouseID) && isDragging)
+        if (Input.GetMouseButton(mouseID))
         {
-            if (currentDistance <= maxDistance)
-            {
-                Debug.Log("Yes it's working 2");
-            // Get the current mouse position in world space
-            Vector2 currentMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-            // Calculate the difference between the current and last mouse position
+            Vector2 currentMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             Vector2 mouseDelta = currentMousePosition - lastMousePosition;
 
-            // Move the hammer by the same delta
-            hammerRigidbody.MovePosition(hammerRigidbody.position + mouseDelta);
+            Vector2 newPosition = hammerRigidbody.position + mouseDelta;
 
-            // Update last mouse position to the current one for the next frame
+            hammerRigidbody.MovePosition(newPosition);
             lastMousePosition = currentMousePosition;
-            }
         }
 
-        if (Input.GetMouseButtonUp(mouseID) || currentDistance >= maxDistance)
+        if (Input.GetMouseButtonUp(mouseID))
         {
-            isDragging = false;
+            Collider2D hit = Physics2D.OverlapCircle(hammerRigidbody.position, checkRadius);
+            Debug.Log("Mouse released. Checking for hit object: " + hit?.name);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Climbable Platform")
+        {
+            Debug.Log("check");
+            isClimbing = true;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Climbable Platform")
+        {
+            Debug.Log("check");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Climbable Platform")
+        {
+            isClimbing = false;
+            Debug.Log("uncheck");
+        }
+    }
+
+    private void GravityToggle()
+    {
+            if(!isClimbing)
+            {
+                hammerRigidbody.gravityScale = 1;
+            }
+
+            else if (isClimbing)
+            {
+                hammerRigidbody.gravityScale = 0;
+                hammerRigidbody.velocity = Vector2.zero;
+            }
+    }
+
+    private void CheckForMax()
+    {
+        Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
+
+        float distance = direction.magnitude;
+
+        if (distance > radius)
+        {
+            Vector2 directionNormalized = direction.normalized;
+
+            Vector2 newPosition = (Vector2)objectX.position + directionNormalized * radius;
+
+            transform.position = newPosition;
         }
     }
 }
