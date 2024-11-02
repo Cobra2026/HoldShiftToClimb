@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    void Update()
-    {
-        Cursor.visible = false;
-    }
+    
+    // void Update()
+    // {
+    //     Cursor.visible = false;
+    // }
+
+
 }
