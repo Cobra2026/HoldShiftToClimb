@@ -12,6 +12,7 @@ public class Resolutions : MonoBehaviour
         new Resolution { width = 1920, height = 1080 },
         new Resolution { width = 1600, height = 900 }
     };
+    
     private List<Resolution> filteredResolutions;
 
     private int currentResolutionIndex = 0;

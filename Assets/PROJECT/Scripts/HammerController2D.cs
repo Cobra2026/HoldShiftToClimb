@@ -27,6 +27,7 @@ public class HammerController2D : MonoBehaviour
         Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
         float distance = direction.magnitude;
 
+        // CheckForLong();
         if (Input.GetMouseButton(mouseID))
         {
         HandleMouseInput();
@@ -35,7 +36,7 @@ public class HammerController2D : MonoBehaviour
         // {
         //     Vector2 directionNormalized = direction.normalized;
         //     // Vector2 newPosition = (Vector2)objectX.position + directionNormalized * radius;
-                        
+
         //     Debug.Log( "Distance: " + distance);
         //     hammerRigidbody.MovePosition((Vector2)objectX.position + directionNormalized * radius);
         // }
@@ -50,7 +51,7 @@ public class HammerController2D : MonoBehaviour
     private void HandleMouseInput()
     {
         float checkRadius = 0.1f;
-        
+
         if (Input.GetMouseButtonDown(mouseID))
         {
             lastMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -77,16 +78,22 @@ public class HammerController2D : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Climbable Platform")
+        if (collision.gameObject.tag == "Climbable Static")
         {
             Debug.Log("check");
             isClimbing = true;
         }
+        // if (collision.gameObject.tag == "Climbable Move")
+        // {
+        //     Debug.Log("check");
+        //     isClimbing = true;
+        //     transform.SetParent(collision.transform);
+        // }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Climbable Platform")
+        if (collision.gameObject.tag == "Climbable Static")
         {
             Debug.Log("check");
         }
@@ -94,11 +101,18 @@ public class HammerController2D : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Climbable Platform")
+        if (collision.gameObject.tag == "Climbable Static")
         {
             isClimbing = false;
             Debug.Log("uncheck");
         }
+
+        // if (collision.gameObject.tag == "Climbable Move")
+        // {
+        //     isClimbing = false;
+        //     Debug.Log("uncheck");
+        //     transform.SetParent(null);
+        // }
     }
 
     private void GravityToggle()
@@ -115,9 +129,28 @@ public class HammerController2D : MonoBehaviour
             }
     }
 
-    private void CheckForMax()
+    private void CheckForLong()
     {
         Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
+
+        float distance = direction.magnitude;
+        // bool objectXisClimbing = objectX.isClimbing;
+        // if(objectXisClimbing = true)
+        // {
+            if(distance > radius)
+            {
+                isClimbing = true;
+            }
+            else
+            {
+                isClimbing = false;
+            }
+        // }
+    }
+
+    private void CheckForMax()
+    {
+        Vector2 direction = (Vector2)transform.position - (Vector2)objectX.transform.position;
 
         float distance = direction.magnitude;
 
@@ -125,7 +158,7 @@ public class HammerController2D : MonoBehaviour
         {
             Vector2 directionNormalized = direction.normalized;
 
-            Vector2 newPosition = (Vector2)objectX.position + directionNormalized * radius;
+            Vector2 newPosition = (Vector2)objectX.transform.position + directionNormalized * radius;
 
             transform.position = newPosition;
         }

@@ -7,6 +7,7 @@ public class MovingPlatforms : MonoBehaviour
     public float speed;
     public int startingPoint;
     public Transform[] points;
+    public GameObject Player;
 
     private int i;
 
@@ -29,13 +30,13 @@ public class MovingPlatforms : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, points[i].position, speed * Time.deltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        collision.transform.SetParent(transform);
-    }
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     collision.transform.SetParent(transform);
+    // }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        collision.transform.SetParent(null);
-    }
+    // private void OnTriggerExit2D(Collider2D collision)
+    // {
+    //     collision.transform.SetParent(Player.transform);
+    // }
 }

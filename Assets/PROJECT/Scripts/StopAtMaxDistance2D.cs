@@ -13,7 +13,6 @@ public class StopAtMaxDistance2D : MonoBehaviour
 
     void Start()
     {
-
         distanceJoint = objectX.AddComponent<DistanceJoint2D>();
         distanceJoint.connectedBody = objectY.GetComponent<Rigidbody2D>();
 

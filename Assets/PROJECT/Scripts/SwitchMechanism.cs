@@ -4,18 +4,32 @@ using UnityEngine;
 
 public class SwitchMechanism : MonoBehaviour
 {
-    public int speed;
+    private int speed;
     public MovingPlatforms MP;
 
     public void switchSpeed()
     {
         if (MP.speed == 0)
         {
-        MP.speed = 7;
+            MP.speed = 7;
         }
         else
         {
-        MP.speed = 0;
+            MP.speed = 0;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        switchSpeed();
     }
 }
