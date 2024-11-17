@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class HeadMovement : MonoBehaviour
 {
-    public GameObject handL, handR, headP;
+    public GameObject handL, handR;
 
     public void Update()
     {
-        headP.transform.position = Vector3.Lerp(handL.transform.position, handR.transform.position, 0.5f);
+        transform.position = Vector3.Lerp(handL.transform.position, handR.transform.position, 0.5f);
     }
 }
