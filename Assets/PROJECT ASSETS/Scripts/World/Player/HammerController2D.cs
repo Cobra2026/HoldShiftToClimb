@@ -9,6 +9,8 @@ public class HammerController2D : MonoBehaviour
     private Vector2 lastMousePosition;
     private Camera mainCamera;
     private bool isClimbing = false;
+    private bool isHolding = false;
+    private bool isGravity = true;
 
     [SerializeField] private int mouseID;
     [SerializeField] private Transform objectX;
@@ -19,6 +21,7 @@ public class HammerController2D : MonoBehaviour
     {
         hammerRigidbody = GetComponent<Rigidbody2D>();
         mainCamera = Camera.main;
+        isGravity = true;
     }
 
     void Update()
@@ -27,24 +30,35 @@ public class HammerController2D : MonoBehaviour
         Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
         float distance = direction.magnitude;
 
-        // CheckForLong();
         if (Input.GetMouseButton(mouseID))
         {
         HandleMouseInput();
         CheckForMax();
-        // if (distance >= radius)
-        // {
-        //     Vector2 directionNormalized = direction.normalized;
-        //     // Vector2 newPosition = (Vector2)objectX.position + directionNormalized * radius;
-
-        //     Debug.Log( "Distance: " + distance);
-        //     hammerRigidbody.MovePosition((Vector2)objectX.position + directionNormalized * radius);
-        // }
         }
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Distance: " + distance);
+        }
+    }
+
+    private void holdHandler()
+    {
+        if (isHolding && !isClimbing)
+        {
+            isGravity = false;
+        }
+        if (isHolding && isClimbing)
+        {
+            isGravity = false;
+        }
+        if (!isHolding && !isClimbing)
+        {
+            isGravity = true;
+        }
+        if (!isHolding && isClimbing)
+        {
+            isGravity = false;
         }
     }
 
@@ -67,12 +81,16 @@ public class HammerController2D : MonoBehaviour
 
             hammerRigidbody.MovePosition(newPosition);
             lastMousePosition = currentMousePosition;
+            isGravity = true;
+            isHolding = true;
         }
 
         if (Input.GetMouseButtonUp(mouseID))
         {
             Collider2D hit = Physics2D.OverlapCircle(hammerRigidbody.position, checkRadius);
             Debug.Log("Mouse released. Checking for hit object: " + hit?.name);
+            isGravity = false;
+            isHolding = false;
         }
     }
 
@@ -81,14 +99,8 @@ public class HammerController2D : MonoBehaviour
         if (collision.gameObject.tag == "Climbable Static")
         {
             Debug.Log("check");
-            isClimbing = true;
+            isGravity = false;
         }
-        // if (collision.gameObject.tag == "Climbable Move")
-        // {
-        //     Debug.Log("check");
-        //     isClimbing = true;
-        //     transform.SetParent(collision.transform);
-        // }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -96,6 +108,7 @@ public class HammerController2D : MonoBehaviour
         if (collision.gameObject.tag == "Climbable Static")
         {
             Debug.Log("check");
+            isGravity = false;
         }
     }
 
@@ -103,26 +116,19 @@ public class HammerController2D : MonoBehaviour
     {
         if (collision.gameObject.tag == "Climbable Static")
         {
-            isClimbing = false;
+            isGravity = true;
             Debug.Log("uncheck");
         }
-
-        // if (collision.gameObject.tag == "Climbable Move")
-        // {
-        //     isClimbing = false;
-        //     Debug.Log("uncheck");
-        //     transform.SetParent(null);
-        // }
     }
 
     private void GravityToggle()
     {
-            if(!isClimbing)
+            if(isGravity)
             {
                 hammerRigidbody.gravityScale = 1;
             }
 
-            else if (isClimbing)
+            else if (!isGravity)
             {
                 hammerRigidbody.gravityScale = 0;
                 hammerRigidbody.velocity = Vector2.zero;
@@ -134,9 +140,6 @@ public class HammerController2D : MonoBehaviour
         Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
 
         float distance = direction.magnitude;
-        // bool objectXisClimbing = objectX.isClimbing;
-        // if(objectXisClimbing = true)
-        // {
             if(distance > radius)
             {
                 isClimbing = true;
@@ -145,7 +148,6 @@ public class HammerController2D : MonoBehaviour
             {
                 isClimbing = false;
             }
-        // }
     }
 
     private void CheckForMax()
