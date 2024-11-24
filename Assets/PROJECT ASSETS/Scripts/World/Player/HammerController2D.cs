@@ -26,13 +26,13 @@ public class HammerController2D : MonoBehaviour
 
     void Update()
     {
-        GravityToggle();
+        GravChecker();
         Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
         float distance = direction.magnitude;
 
+        HandleMouseInput();
         if (Input.GetMouseButton(mouseID))
         {
-        HandleMouseInput();
         CheckForMax();
         }
 
@@ -42,25 +42,6 @@ public class HammerController2D : MonoBehaviour
         }
     }
 
-    private void holdHandler()
-    {
-        if (isHolding && !isClimbing)
-        {
-            isGravity = false;
-        }
-        if (isHolding && isClimbing)
-        {
-            isGravity = false;
-        }
-        if (!isHolding && !isClimbing)
-        {
-            isGravity = true;
-        }
-        if (!isHolding && isClimbing)
-        {
-            isGravity = false;
-        }
-    }
 
     private void HandleMouseInput()
     {
@@ -81,7 +62,6 @@ public class HammerController2D : MonoBehaviour
 
             hammerRigidbody.MovePosition(newPosition);
             lastMousePosition = currentMousePosition;
-            isGravity = true;
             isHolding = true;
         }
 
@@ -89,7 +69,6 @@ public class HammerController2D : MonoBehaviour
         {
             Collider2D hit = Physics2D.OverlapCircle(hammerRigidbody.position, checkRadius);
             Debug.Log("Mouse released. Checking for hit object: " + hit?.name);
-            isGravity = false;
             isHolding = false;
         }
     }
@@ -99,7 +78,6 @@ public class HammerController2D : MonoBehaviour
         if (collision.gameObject.tag == "Climbable Static")
         {
             Debug.Log("check");
-            isGravity = false;
         }
     }
 
@@ -108,7 +86,7 @@ public class HammerController2D : MonoBehaviour
         if (collision.gameObject.tag == "Climbable Static")
         {
             Debug.Log("check");
-            isGravity = false;
+            isClimbing = true;
         }
     }
 
@@ -116,38 +94,24 @@ public class HammerController2D : MonoBehaviour
     {
         if (collision.gameObject.tag == "Climbable Static")
         {
-            isGravity = true;
+            isClimbing = false;
             Debug.Log("uncheck");
         }
     }
 
-    private void GravityToggle()
+    private void GravChecker()
     {
-            if(isGravity)
-            {
-                hammerRigidbody.gravityScale = 1;
-            }
-
-            else if (!isGravity)
-            {
-                hammerRigidbody.gravityScale = 0;
-                hammerRigidbody.velocity = Vector2.zero;
-            }
-    }
-
-    private void CheckForLong()
-    {
-        Vector2 direction = (Vector2)transform.position - (Vector2)objectX.position;
-
-        float distance = direction.magnitude;
-            if(distance > radius)
-            {
-                isClimbing = true;
-            }
-            else
-            {
-                isClimbing = false;
-            }
+        if (!isHolding && !isClimbing)
+        {
+            isGravity = true;
+            hammerRigidbody.gravityScale = 1;
+        }
+        else
+        {
+            isGravity = false;
+            hammerRigidbody.gravityScale = 0;
+            hammerRigidbody.velocity = Vector2.zero;
+        }
     }
 
     private void CheckForMax()
