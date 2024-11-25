@@ -11,6 +11,7 @@ public class HammerController2D : MonoBehaviour
     private bool isClimbing = false;
     private bool isHolding = false;
     private bool isGravity = true;
+    private HammerController2D objectXID;
 
     [SerializeField] private int mouseID;
     [SerializeField] private Transform objectX;
@@ -22,6 +23,7 @@ public class HammerController2D : MonoBehaviour
         hammerRigidbody = GetComponent<Rigidbody2D>();
         mainCamera = Camera.main;
         isGravity = true;
+        objectXID = objectX.GetComponent<HammerController2D>();
     }
 
     void Update()
@@ -40,6 +42,10 @@ public class HammerController2D : MonoBehaviour
         {
             Debug.Log("Distance: " + distance);
         }
+        if(objectXID.isHolding)
+        {
+            Debug.Log("ACTIVE: " + mouseID);
+        }
     }
 
 
@@ -55,14 +61,21 @@ public class HammerController2D : MonoBehaviour
 
         if (Input.GetMouseButton(mouseID))
         {
-            Vector2 currentMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mouseDelta = currentMousePosition - lastMousePosition;
+            if (!objectXID.isHolding)
+            {
+                Vector2 currentMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                Vector2 mouseDelta = currentMousePosition - lastMousePosition;
 
-            Vector2 newPosition = hammerRigidbody.position + mouseDelta;
+                Vector2 newPosition = hammerRigidbody.position + mouseDelta;
 
-            hammerRigidbody.MovePosition(newPosition);
-            lastMousePosition = currentMousePosition;
-            isHolding = true;
+                hammerRigidbody.MovePosition(newPosition);
+                lastMousePosition = currentMousePosition;
+                isHolding = true;
+            }
+            else
+            {
+                isHolding = true;
+            }
         }
 
         if (Input.GetMouseButtonUp(mouseID))
@@ -77,7 +90,7 @@ public class HammerController2D : MonoBehaviour
     {
         if (collision.gameObject.tag == "Climbable Static")
         {
-            Debug.Log("check");
+            // Debug.Log("check");
         }
     }
 
@@ -85,7 +98,7 @@ public class HammerController2D : MonoBehaviour
     {
         if (collision.gameObject.tag == "Climbable Static")
         {
-            Debug.Log("check");
+            // Debug.Log("check");
             isClimbing = true;
         }
     }
@@ -95,22 +108,24 @@ public class HammerController2D : MonoBehaviour
         if (collision.gameObject.tag == "Climbable Static")
         {
             isClimbing = false;
-            Debug.Log("uncheck");
+            // Debug.Log("uncheck");
         }
     }
 
     private void GravChecker()
     {
-        if (!isHolding && !isClimbing)
+        if ((!isHolding && !isClimbing) || (objectXID.isHolding && isHolding))
         {
             isGravity = true;
             hammerRigidbody.gravityScale = 1;
+            // Debug.Log("FALL");
         }
         else
         {
             isGravity = false;
             hammerRigidbody.gravityScale = 0;
             hammerRigidbody.velocity = Vector2.zero;
+            // Debug.Log("STOP");
         }
     }
 

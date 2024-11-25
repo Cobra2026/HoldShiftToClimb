@@ -1509,6 +1509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftHand
       objectReference: {fileID: 0}
+    - target: {fileID: 6237269753448668518, guid: e0acfb5661f8f1844bcbc5a747acd5fd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6752062411004513617, guid: e0acfb5661f8f1844bcbc5a747acd5fd, type: 3}
       propertyPath: radius
       value: 2
