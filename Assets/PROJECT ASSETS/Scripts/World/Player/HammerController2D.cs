@@ -118,7 +118,7 @@ public class HammerController2D : MonoBehaviour
             transform.position += (Vector3)deltaMovement;
 
             previousPosition = currentPlatformPosition;
-            if (!objectXID.isHolding && !objectXID.isClimbing)
+            if (!objectXID.isClimbing)
             {
                 objectXID.transform.position += (Vector3)deltaMovement;
             }

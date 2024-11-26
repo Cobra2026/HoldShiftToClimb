@@ -5276,6 +5276,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5749633639990668325, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
+      propertyPath: m_TagString
+      value: Climbable Move
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
