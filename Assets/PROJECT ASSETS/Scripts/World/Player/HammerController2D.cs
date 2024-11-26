@@ -7,10 +7,11 @@ public class HammerController2D : MonoBehaviour
 {
     private Rigidbody2D hammerRigidbody;
     private Vector2 lastMousePosition;
+    private Vector2 previousPosition;
     private Camera mainCamera;
     private bool isClimbing = false;
     private bool isHolding = false;
-    private HammerController2D objectXID;
+    public HammerController2D objectXID;
 
     [SerializeField] private int mouseID;
     [SerializeField] private Transform objectX;
@@ -91,6 +92,11 @@ public class HammerController2D : MonoBehaviour
             Debug.Log("check");
             isClimbing = true;
         }
+        if (collision.gameObject.tag == "Climbable Move")
+        {
+            isClimbing = true;
+            previousPosition = collision.transform.position;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -100,15 +106,43 @@ public class HammerController2D : MonoBehaviour
             // Debug.Log("check");
             isClimbing = true;
         }
+        if (collision.gameObject.tag == "Climbable Move")
+        {
+            Debug.Log("check");
+            isClimbing = true;
+            Vector2 currentPlatformPosition = collision.transform.position;
+
+            Vector2 deltaMovement = currentPlatformPosition - previousPosition;
+
+
+            transform.position += (Vector3)deltaMovement;
+
+            previousPosition = currentPlatformPosition;
+            if (!objectXID.isHolding && !objectXID.isClimbing)
+            {
+                objectXID.transform.position += (Vector3)deltaMovement;
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Climbable Static")
+        if (collision.CompareTag("Climbable Static") || collision.CompareTag("Climbable Move"))
+    {
+        Collider2D[] overlaps = Physics2D.OverlapCircleAll(transform.position, 0.1f);
+        bool stillClimbing = false;
+
+        foreach (var overlap in overlaps)
         {
-            isClimbing = false;
-            // Debug.Log("uncheck");
+            if (overlap.CompareTag("Climbable Static") || overlap.CompareTag("Climbable Move"))
+            {
+                stillClimbing = true;
+                break;
+            }
         }
+
+        isClimbing = stillClimbing;
+    }
     }
 
     private void GravChecker()

@@ -7,18 +7,21 @@ public class MovingPlatforms : MonoBehaviour
     public float speed;
     public int startingPoint;
     public Transform[] points;
-    public GameObject Player;
 
     private int i;
+
+    private bool isMoving;
+    private Vector3 lastPlatformPosition;
 
     void Start()
     {
         transform.position = points[startingPoint].position;
+        lastPlatformPosition = transform.position;
     }
 
     void Update()
     {
-        if (Vector2.Distance(transform.position, points[i].position)  <  0.02f)
+        if (Vector2.Distance(transform.position, points[i].position) < 0.02f)
         {
             i++;
             if (i == points.Length)
@@ -27,16 +30,13 @@ public class MovingPlatforms : MonoBehaviour
             }
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, points[i].position, speed * Time.deltaTime);
+        Vector3 newPosition = Vector2.MoveTowards(transform.position, points[i].position, speed * Time.deltaTime);
+
+        Vector3 platformDelta = newPosition - transform.position;
+
+
+        transform.position = newPosition;
+
+        lastPlatformPosition = transform.position;
     }
-
-    // private void OnTriggerEnter2D(Collider2D collision)
-    // {
-    //     collision.transform.SetParent(transform);
-    // }
-
-    // private void OnTriggerExit2D(Collider2D collision)
-    // {
-    //     collision.transform.SetParent(Player.transform);
-    // }
 }
