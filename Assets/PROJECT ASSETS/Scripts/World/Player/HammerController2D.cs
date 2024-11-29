@@ -9,7 +9,7 @@ public class HammerController2D : MonoBehaviour
     private Vector2 lastMousePosition;
     private Vector2 previousPosition;
     private Camera mainCamera;
-    private bool isClimbing, isClimbingStatic, isHolding = false;
+    private bool isClimbing, isClimbingStatic, isHolding, isClimbingMove = false;
     public HammerController2D objectXID;
 
     [SerializeField] private int mouseID;
@@ -38,11 +38,11 @@ public class HammerController2D : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Distance: " + distance);
+            // Debug.Log("Distance: " + distance);
         }
         if(objectXID.isHolding)
         {
-            Debug.Log("ACTIVE: " + mouseID);
+            // Debug.Log("ACTIVE: " + mouseID);
         }
     }
 
@@ -65,7 +65,13 @@ public class HammerController2D : MonoBehaviour
                 Vector2 mouseDelta = currentMousePosition - lastMousePosition;
 
                 Vector2 newPosition = hammerRigidbody.position + mouseDelta;
-
+                if(objectXID.isClimbingMove)
+                {
+                    // hammerRigidbody.MovePosition(newPosition);
+                    lastMousePosition = currentMousePosition;
+                    isHolding = true;
+                    return;
+                }
                 hammerRigidbody.MovePosition(newPosition);
                 lastMousePosition = currentMousePosition;
                 isHolding = true;
@@ -136,6 +142,7 @@ public class HammerController2D : MonoBehaviour
         Collider2D[] overlaps = Physics2D.OverlapCircleAll(transform.position, 0.1f);
         bool stillClimbing = false;
         bool stillClimbingStatic = false;
+        bool stillClimbingMove = false;
 
         foreach (var overlap in overlaps)
         {
@@ -147,11 +154,13 @@ public class HammerController2D : MonoBehaviour
             else if (overlap.CompareTag("Climbable Move"))
             {
                 stillClimbing = true;
+                stillClimbingMove = true;
             }
         }
 
         isClimbing = stillClimbing;
         isClimbingStatic = stillClimbingStatic;
+        isClimbingMove = stillClimbingMove;
     }
     }
 
