@@ -4,25 +4,34 @@ using UnityEngine;
 
 public class BlinkingPlatforms : MonoBehaviour
 {
-    [SerializeField] private GameObject BlinkingP;
-    private bool isBlinking = true;
+    public bool isFalling, isBlinking = false;
+    public GameObject BlinkingP;
+    [SerializeField] private int ID;
 
     void Start()
     {
-        InvokeRepeating("ToggleBlinking", 0f, 1f);
+        if (BlinkingP == null)
+        {
+            Debug.LogError("BlinkingP is not assigned!");
+            return;
+        }
+
+        if (ID == 0 || ID == 1)
+        {
+            float delay = ID == 0 ? 0f : 2f;
+            InvokeRepeating("ToggleBlinking", delay, 2f);
+        }
+    }
+    void Update()
+    {
+        if(isFalling && ID == 3)
+        {
+            BlinkingPlatformsManager.instance.isFalling = true;
+        }
     }
 
-    private void ToggleBlinking()
+        private void ToggleBlinking()
     {
-        if (isBlinking)
-        {
-            BlinkingP.SetActive(false);
-        }
-        else
-        {
-            BlinkingP.SetActive(true);
-        }
-
-        isBlinking = !isBlinking;
+        BlinkingP.SetActive(!BlinkingP.activeSelf);
     }
 }

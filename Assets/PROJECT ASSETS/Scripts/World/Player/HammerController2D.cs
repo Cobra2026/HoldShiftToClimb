@@ -9,8 +9,9 @@ public class HammerController2D : MonoBehaviour
     private Vector2 lastMousePosition;
     private Vector2 previousPosition;
     private Camera mainCamera;
-    private bool isClimbing, isClimbingStatic, isHolding, isClimbingMove = false;
+    public bool isClimbing, isClimbingStatic, isHolding, isClimbingMove, isBool = false;
     public HammerController2D objectXID;
+    private Collider2D col;
 
     [SerializeField] private int mouseID;
     [SerializeField] private Transform objectX;
@@ -20,8 +21,11 @@ public class HammerController2D : MonoBehaviour
     void Start()
     {
         hammerRigidbody = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
         mainCamera = Camera.main;
         objectXID = objectX.GetComponent<HammerController2D>();
+
+        col.isTrigger = true;
     }
 
     void Update()
@@ -92,27 +96,38 @@ public class HammerController2D : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Climbable Static")
+        if (collision.gameObject.tag == "Climbable Static" && !isBool && !objectXID.isBool)
         {
             Debug.Log("check");
             isClimbing = true;
         }
-        if (collision.gameObject.tag == "Climbable Move")
+        if (collision.gameObject.tag == "Climbable Move" && !isBool && !objectXID.isBool)
         {
             isClimbing = true;
             previousPosition = collision.transform.position;
+        }
+        if (collision.gameObject.tag == "LASER")
+        {
+            isHolding = true;
+            objectXID.isHolding = true;
+            isBool = true;
+            objectXID.isBool = true;
         }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Climbable Static")
+        if (collision.CompareTag("Climbable Static") && !isBool && !objectXID.isBool)
         {
-            // Debug.Log("check");
             isClimbing = true;
             isClimbingStatic = true;
+            BlinkingPlatforms blinkingPlatform = collision.GetComponent<BlinkingPlatforms>();
+        if (blinkingPlatform != null)
+            {
+                blinkingPlatform.isFalling = true;
+            }
         }
-        if (collision.gameObject.tag == "Climbable Move")
+        if (collision.gameObject.tag == "Climbable Move" && !isBool && !objectXID.isBool)
         {
             if (objectXID.isClimbingStatic)
             {
@@ -161,7 +176,16 @@ public class HammerController2D : MonoBehaviour
         isClimbing = stillClimbing;
         isClimbingStatic = stillClimbingStatic;
         isClimbingMove = stillClimbingMove;
+        BlinkingPlatforms blinkingPlatform = collision.GetComponent<BlinkingPlatforms>();
+        if (blinkingPlatform != null)
+            {
+                blinkingPlatform.isFalling = false;
+            }
     }
+    if (collision.gameObject.tag == "LASER")
+        {
+            StartCoroutine (TimeDelay());
+        }
     }
 
     private void GravChecker()
@@ -194,5 +218,14 @@ public class HammerController2D : MonoBehaviour
 
             transform.position = newPosition;
         }
+    }
+
+    private IEnumerator TimeDelay()
+    {
+        yield return new WaitForSeconds(1);
+        isBool = false;
+        objectXID.isBool = false;
+        isHolding = false;
+        objectXID.isHolding = false;
     }
 }
