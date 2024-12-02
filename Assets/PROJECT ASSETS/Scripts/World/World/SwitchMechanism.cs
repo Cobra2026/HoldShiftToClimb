@@ -5,13 +5,14 @@ using UnityEngine;
 public class SwitchMechanism : MonoBehaviour
 {
     private int speed;
+    [SerializeField] private int MOVESPEED;
     public MovingPlatforms MP;
 
     public void switchSpeed()
     {
         if (MP.speed == 0)
         {
-            MP.speed = 7;
+            MP.speed = MOVESPEED;
         }
         else
         {

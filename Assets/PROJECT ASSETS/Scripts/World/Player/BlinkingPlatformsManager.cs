@@ -5,10 +5,8 @@ using UnityEngine;
 public class BlinkingPlatformsManager : MonoBehaviour
 {
     public static BlinkingPlatformsManager instance;
-    [SerializeField] private GameObject BlinkingP;
-    public bool isFalling = false;
-    public bool isBlinking = false;
-    [SerializeField] private int ID;
+    [SerializeField] private List<BlinkingPlatforms> blinkingPlatforms = new List<BlinkingPlatforms>();
+    [SerializeField] private float seconds;
 
     void Awake()
     {
@@ -20,53 +18,29 @@ public class BlinkingPlatformsManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }   
+    }
 
-    void Start()
+    public void AddPlatform(BlinkingPlatforms platform)
     {
-        if (BlinkingP == null)
+        if (!blinkingPlatforms.Contains(platform))
         {
-            Debug.LogError("BlinkingP is not assigned!");
-            return;
-        }
-
-        if (ID == 0 || ID == 1)
-        {
-            float delay = ID == 0 ? 0f : 2f;
-            InvokeRepeating("ToggleBlinking", delay, 2f);
+            blinkingPlatforms.Add(platform);
         }
     }
 
-    void Update()
+    public void DeactivatePlatform(BlinkingPlatforms platform, float duration)
     {
-        if(isFalling && ID == 3 && !isBlinking)
-        {
-            StartCoroutine (FallDelay());
-        }
+        // if (blinkingPlatforms.Contains(platform))
+        // {
+            StartCoroutine(DeactivateForSeconds(platform, duration));
+        // }
     }
 
-
-    private IEnumerator FallDelay()
+    private IEnumerator DeactivateForSeconds(BlinkingPlatforms platform, float seconds)
     {
-        isBlinking = true;
-        yield return new WaitForSeconds(2);
-        BlinkingP.SetActive(false);
-        yield return new WaitForSeconds(2);
-        BlinkingP.SetActive(true);
-        isBlinking = false;
-        isFalling = false;
+        yield return new WaitForSeconds(1);
+        platform.gameObject.SetActive(false);
+        yield return new WaitForSeconds(seconds);
+        platform.gameObject.SetActive(true);
     }
-
-    // private void OnTriggerStay2D(Collider2D collision)
-    // {
-    //     if(collision.CompareTag("Player"))
-    //     {
-    //         HammerController2D playerScript = collision.GetComponent<HammerController2D>();
-    //         if (playerScript != null && !playerScript.isHolding)
-    //         {
-    //             isFalling = true;
-    //             Debug.Log("YOU ARE FALLING!!!!!");
-    //         }
-    //     }
-    // }
 }
