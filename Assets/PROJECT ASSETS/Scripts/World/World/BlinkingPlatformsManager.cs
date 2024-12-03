@@ -38,7 +38,7 @@ public class BlinkingPlatformsManager : MonoBehaviour
 
     private IEnumerator DeactivateForSeconds(BlinkingPlatforms platform, float seconds)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         platform.gameObject.SetActive(false);
         yield return new WaitForSeconds(seconds);
         platform.gameObject.SetActive(true);
