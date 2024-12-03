@@ -55,15 +55,15 @@ public class HammerController2D : MonoBehaviour
     {
         float checkRadius = 0.1f;
 
-        if (Input.GetMouseButtonDown(mouseID))
+        if (Input.GetMouseButtonDown(mouseID) && (!isBool || !objectXID.isBool))
         {
             lastMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            Debug.Log("Mouse down at: " + lastMousePosition);
+            // Debug.Log("Mouse down at: " + lastMousePosition);
         }
 
-        if (Input.GetMouseButton(mouseID))
+        if (Input.GetMouseButton(mouseID) && (!isBool || !objectXID.isBool))
         {
-            if (!objectXID.isHolding && objectXID.isClimbing)
+            if (!objectXID.isHolding && objectXID.isClimbing && (!isBool || !objectXID.isBool))
             {
                 Vector2 currentMousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
                 Vector2 mouseDelta = currentMousePosition - lastMousePosition;
@@ -89,35 +89,32 @@ public class HammerController2D : MonoBehaviour
         if (Input.GetMouseButtonUp(mouseID))
         {
             Collider2D hit = Physics2D.OverlapCircle(hammerRigidbody.position, checkRadius);
-            Debug.Log("Mouse released. Checking for hit object: " + hit?.name);
+            // Debug.Log("Mouse released. Checking for hit object: " + hit?.name);
             isHolding = false;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Climbable Static" && !isBool && !objectXID.isBool)
+        if (collision.CompareTag("Climbable Static") && (!isBool || !objectXID.isBool))
         {
-            Debug.Log("check");
+            // Debug.Log("check");
             isClimbing = true;
         }
-        if (collision.gameObject.tag == "Climbable Move" && !isBool && !objectXID.isBool)
+        if (collision.CompareTag("Climbable Move") && (!isBool || !objectXID.isBool))
         {
             isClimbing = true;
             previousPosition = collision.transform.position;
         }
-        if (collision.gameObject.tag == "LASER")
+        if (collision.CompareTag("LASER"))
         {
-            isHolding = true;
-            objectXID.isHolding = true;
-            isBool = true;
-            objectXID.isBool = true;
+            StartCoroutine (TimeDelay());
         }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Climbable Static") && !isBool && !objectXID.isBool)
+        if (collision.CompareTag("Climbable Static") && (!isBool || !objectXID.isBool))
         {
             isClimbing = true;
             isClimbingStatic = true;
@@ -127,13 +124,13 @@ public class HammerController2D : MonoBehaviour
                 blinkingPlatform.isFalling = true;
             }
         }
-        if (collision.gameObject.tag == "Climbable Move" && !isBool && !objectXID.isBool)
+        if (collision.CompareTag("Climbable Move") && (!isBool || !objectXID.isBool))
         {
             if (objectXID.isClimbingStatic)
             {
                 CheckForMax();
             }
-            Debug.Log("check");
+            // Debug.Log("check");
             isClimbing = true;
             Vector2 currentPlatformPosition = collision.transform.position;
 
@@ -147,6 +144,10 @@ public class HammerController2D : MonoBehaviour
             {
                 objectXID.transform.position += (Vector3)deltaMovement;
             }
+        }
+        if (collision.CompareTag("LASER"))
+        {
+            StartCoroutine (TimeDelay());
         }
     }
 
@@ -182,10 +183,6 @@ public class HammerController2D : MonoBehaviour
                 blinkingPlatform.isFalling = false;
             }
     }
-    if (collision.gameObject.tag == "LASER")
-        {
-            StartCoroutine (TimeDelay());
-        }
     }
 
     private void GravChecker()
@@ -222,10 +219,16 @@ public class HammerController2D : MonoBehaviour
 
     private IEnumerator TimeDelay()
     {
+        isBool = true;
+        objectXID.isBool = true;
+        isHolding = true;
+        objectXID.isHolding = true;
+        Debug.Log("FALLING AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH");
         yield return new WaitForSeconds(1);
         isBool = false;
         objectXID.isBool = false;
         isHolding = false;
         objectXID.isHolding = false;
+        Debug.Log("NO");
     }
 }
