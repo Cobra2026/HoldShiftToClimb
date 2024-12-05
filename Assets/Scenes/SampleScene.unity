@@ -128,7 +128,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (37)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -196,7 +196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -245,7 +245,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -257,7 +257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (2)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -313,7 +313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -367,7 +367,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -379,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (36)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -447,7 +447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -499,7 +499,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -511,7 +511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -567,7 +567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -621,7 +621,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -633,7 +633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (35)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -701,7 +701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -789,7 +789,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -801,7 +801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (23)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -857,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -906,7 +906,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -918,7 +918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (9)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -974,7 +974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1033,7 +1033,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1045,7 +1045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (1)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -1101,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1160,7 +1160,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1172,7 +1172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (7)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -1228,7 +1228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1304,13 +1304,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1182551097}
-  - {fileID: 2113977690}
-  - {fileID: 1013356068}
-  - {fileID: 295595075}
-  - {fileID: 1601049158}
-  - {fileID: 1920928810}
-  - {fileID: 613418374}
+  - {fileID: 445930004}
+  - {fileID: 1490523252}
   m_Father: {fileID: 1253127575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1355,7 +1350,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1367,7 +1362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -1435,7 +1430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1492,7 +1487,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1504,7 +1499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (13)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -1572,7 +1567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1718,7 +1713,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1730,7 +1725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -1798,7 +1793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1855,7 +1850,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1867,7 +1862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -1923,7 +1918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1971,13 +1966,48 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
   m_PrefabInstance: {fileID: 242079905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &247382797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247382798}
+  m_Layer: 5
+  m_Name: Switch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &247382798
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247382797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2033301296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &276236851
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -1989,7 +2019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (27)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -2057,7 +2087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2103,6 +2133,45 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 424002209}
   m_SourcePrefab: {fileID: 100100000, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+--- !u!1 &287160597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 287160598}
+  m_Layer: 5
+  m_Name: Static
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &287160598
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287160597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1015296126}
+  - {fileID: 2095197733}
+  - {fileID: 1005162541}
+  - {fileID: 1556663207}
+  m_Father: {fileID: 2033301296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &295595074
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,7 +2186,7 @@ GameObject:
   - component: {fileID: 295595077}
   - component: {fileID: 295595076}
   m_Layer: 5
-  m_Name: LASER (5)
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2135,7 +2204,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -147.393}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2243,7 +2312,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -2255,7 +2324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (6)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -2311,7 +2380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2365,7 +2434,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -2377,7 +2446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (10)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -2445,7 +2514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2523,7 +2592,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -2535,7 +2604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -2591,7 +2660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2649,7 +2718,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms (3)
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -2863,7 +2932,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -2875,7 +2944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (11)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -2943,7 +3012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3089,7 +3158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 445350830}
   m_Layer: 0
-  m_Name: Climbables
+  m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3108,54 +3177,53 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 91.77718}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 38106618}
-  - {fileID: 117065161}
-  - {fileID: 1858048009}
-  - {fileID: 63509519}
-  - {fileID: 91471456}
-  - {fileID: 693880795}
-  - {fileID: 2125476720}
-  - {fileID: 1714471258}
-  - {fileID: 309753506}
-  - {fileID: 151293508}
-  - {fileID: 372378719}
-  - {fileID: 454380933}
-  - {fileID: 1632759472}
-  - {fileID: 1102136792}
-  - {fileID: 1314105440}
-  - {fileID: 1836583238}
-  - {fileID: 725979873}
-  - {fileID: 235072042}
-  - {fileID: 200927083}
-  - {fileID: 329688546}
-  - {fileID: 424002208}
-  - {fileID: 1637709098}
-  - {fileID: 1639921244}
-  - {fileID: 1196581214}
-  - {fileID: 856270770}
-  - {fileID: 1627024995}
-  - {fileID: 1825591216}
-  - {fileID: 994769401}
-  - {fileID: 846539226}
-  - {fileID: 769897264}
-  - {fileID: 345651733}
-  - {fileID: 242079906}
-  - {fileID: 2264194}
-  - {fileID: 1068322401}
-  - {fileID: 1745510177}
-  - {fileID: 1774074873}
-  - {fileID: 2118205170}
-  - {fileID: 1375403625}
-  - {fileID: 2141211849}
-  - {fileID: 70374243}
-  - {fileID: 1046481130}
-  - {fileID: 557430872}
-  - {fileID: 1943072755}
-  - {fileID: 1274847518}
-  - {fileID: 1079824434}
-  - {fileID: 2114185984}
+  - {fileID: 735837818}
+  - {fileID: 1694954107}
+  - {fileID: 663150896}
   m_Father: {fileID: 1253127575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &445930003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 445930004}
+  m_Layer: 5
+  m_Name: Static
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &445930004
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445930003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1182551097}
+  - {fileID: 2113977690}
+  - {fileID: 1013356068}
+  - {fileID: 295595075}
+  - {fileID: 1601049158}
+  - {fileID: 1920928810}
+  - {fileID: 613418374}
+  m_Father: {fileID: 144229202}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &454380932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
@@ -3188,7 +3256,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -3200,7 +3268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (29)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -3268,7 +3336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3320,7 +3388,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -3332,7 +3400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (26)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -3400,7 +3468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3633,7 +3701,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -3645,7 +3713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (34)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -3713,7 +3781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3957,7 +4025,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -4111,7 +4179,7 @@ GameObject:
   - component: {fileID: 613418376}
   - component: {fileID: 613418375}
   m_Layer: 5
-  m_Name: LASER (3)
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4124,12 +4192,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613418373}
-  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: -0, y: -0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4244,7 +4312,7 @@ GameObject:
   - component: {fileID: 618734162}
   - component: {fileID: 618734161}
   m_Layer: 0
-  m_Name: Switch
+  m_Name: Switch 2
   m_TagString: Switch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4482,8 +4550,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663150895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -12358.155}
+  m_LocalScale: {x: 1, y: 1, z: 0.010895954}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 365727853}
@@ -4493,7 +4561,7 @@ RectTransform:
   - {fileID: 863194923}
   - {fileID: 948199881}
   - {fileID: 2085020072}
-  m_Father: {fileID: 1253127575}
+  m_Father: {fileID: 445350830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4506,7 +4574,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -4518,7 +4586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (12)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -4574,7 +4642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4648,13 +4716,71 @@ MonoBehaviour:
   isBlinking: 0
   BlinkingP: {fileID: 725979872}
   platformType: 0
+--- !u!1 &735837817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735837818}
+  m_Layer: 0
+  m_Name: Static
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &735837818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735837817}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 38106618}
+  - {fileID: 117065161}
+  - {fileID: 1858048009}
+  - {fileID: 63509519}
+  - {fileID: 91471456}
+  - {fileID: 693880795}
+  - {fileID: 2125476720}
+  - {fileID: 1714471258}
+  - {fileID: 309753506}
+  - {fileID: 846539226}
+  - {fileID: 769897264}
+  - {fileID: 345651733}
+  - {fileID: 242079906}
+  - {fileID: 2264194}
+  - {fileID: 1068322401}
+  - {fileID: 1745510177}
+  - {fileID: 1774074873}
+  - {fileID: 2118205170}
+  - {fileID: 1375403625}
+  - {fileID: 2141211849}
+  - {fileID: 70374243}
+  - {fileID: 1046481130}
+  - {fileID: 557430872}
+  - {fileID: 1943072755}
+  - {fileID: 1274847518}
+  - {fileID: 1079824434}
+  - {fileID: 2114185984}
+  m_Father: {fileID: 445350830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &769897263
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -4666,7 +4792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -4722,7 +4848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4807,7 +4933,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -4819,7 +4945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (25)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -4875,7 +5001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4924,7 +5050,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -4936,7 +5062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (14)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_IsActive
@@ -4996,7 +5122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5080,7 +5206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -5364,7 +5490,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -5376,7 +5502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (18)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -5432,7 +5558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5485,7 +5611,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms (1)
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -5631,7 +5757,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -5643,7 +5769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -5711,7 +5837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5781,7 +5907,7 @@ GameObject:
   - component: {fileID: 1013356070}
   - component: {fileID: 1013356069}
   m_Layer: 5
-  m_Name: LASER (4)
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5799,7 +5925,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -147.393}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5907,7 +6033,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2033301296}
+    m_TransformParent: {fileID: 287160598}
     m_Modifications:
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_Pivot.x
@@ -5959,15 +6085,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6212,7 +6338,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2033301296}
+    m_TransformParent: {fileID: 287160598}
     m_Modifications:
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_Pivot.x
@@ -6264,15 +6390,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6316,7 +6442,7 @@ PrefabInstance:
       objectReference: {fileID: 1331211657}
     - target: {fileID: 5749633639990668325, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_Name
-      value: Moving Platform (1)
+      value: Moving Platform
       objectReference: {fileID: 0}
     - target: {fileID: 5749633639990668325, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_Layer
@@ -6353,7 +6479,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -6365,7 +6491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (3)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -6421,7 +6547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6599,7 +6725,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -6611,7 +6737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (32)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -6679,7 +6805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6788,7 +6914,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -6800,7 +6926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (33)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -6868,7 +6994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6920,7 +7046,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -6932,7 +7058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (19)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -6988,7 +7114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7045,7 +7171,7 @@ GameObject:
   - component: {fileID: 1182551099}
   - component: {fileID: 1182551102}
   m_Layer: 5
-  m_Name: LASER
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7063,7 +7189,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.906}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7228,7 +7354,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -7240,7 +7366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (20)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -7308,7 +7434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7382,7 +7508,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 663150896}
   - {fileID: 445350830}
   - {fileID: 50946287}
   - {fileID: 2033301296}
@@ -7400,7 +7525,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -7412,7 +7537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (38)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -7468,7 +7593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7554,7 +7679,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -7566,7 +7691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (30)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -7634,7 +7759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7883,6 +8008,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1266151369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1490523251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1490523252}
+  m_Layer: 5
+  m_Name: Blinking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1490523252
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490523251}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 144229202}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1490982137
 GameObject:
   m_ObjectHideFlags: 0
@@ -7928,7 +8088,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2033301296}
+    m_TransformParent: {fileID: 287160598}
     m_Modifications:
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_Pivot.x
@@ -7980,15 +8140,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -8082,7 +8242,7 @@ GameObject:
   - component: {fileID: 1601049160}
   - component: {fileID: 1601049159}
   m_Layer: 5
-  m_Name: LASER (1)
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8095,12 +8255,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601049157}
-  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: -0, y: -0, z: -0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8208,7 +8368,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -8220,7 +8380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (24)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -8276,7 +8436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8377,7 +8537,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -8389,7 +8549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (17)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -8445,7 +8605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8694,7 +8854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms (4)
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -8871,13 +9031,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1694954106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694954107}
+  m_Layer: 0
+  m_Name: Blinking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1694954107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694954106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 151293508}
+  - {fileID: 372378719}
+  - {fileID: 454380933}
+  - {fileID: 1632759472}
+  - {fileID: 1102136792}
+  - {fileID: 1314105440}
+  - {fileID: 1836583238}
+  - {fileID: 725979873}
+  - {fileID: 235072042}
+  - {fileID: 200927083}
+  - {fileID: 329688546}
+  - {fileID: 424002208}
+  - {fileID: 1637709098}
+  - {fileID: 1639921244}
+  - {fileID: 1196581214}
+  - {fileID: 856270770}
+  - {fileID: 1627024995}
+  - {fileID: 1825591216}
+  - {fileID: 994769401}
+  m_Father: {fileID: 445350830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1714471257
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -8889,7 +9099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (16)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -8945,7 +9155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8999,7 +9209,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -9011,7 +9221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (5)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -9067,7 +9277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9154,7 +9364,7 @@ GameObject:
   - component: {fileID: 1806879510}
   - component: {fileID: 1806879509}
   m_Layer: 0
-  m_Name: Switch
+  m_Name: Switch 1
   m_TagString: Switch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9292,7 +9502,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -9304,7 +9514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (28)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -9372,7 +9582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9424,7 +9634,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -9436,7 +9646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -9504,7 +9714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9603,7 +9813,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -9615,7 +9825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (8)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -9671,7 +9881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9828,7 +10038,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -9840,7 +10050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (22)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -9896,7 +10106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9953,7 +10163,7 @@ GameObject:
   - component: {fileID: 1920928812}
   - component: {fileID: 1920928811}
   m_Layer: 5
-  m_Name: LASER (2)
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9966,12 +10176,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920928809}
-  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: -0, y: -0, z: -0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10136,7 +10346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -10282,7 +10492,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -10294,7 +10504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (21)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -10350,7 +10560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10421,10 +10631,8 @@ RectTransform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1015296126}
-  - {fileID: 2095197733}
-  - {fileID: 1005162541}
-  - {fileID: 1556663207}
+  - {fileID: 287160598}
+  - {fileID: 247382798}
   m_Father: {fileID: 1253127575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -10442,7 +10650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Falling Platforms (2)
+      value: Falling Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -10593,7 +10801,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 1694954107}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -10605,7 +10813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (31)
+      value: Blinking Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Color.b
@@ -10673,7 +10881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10733,7 +10941,7 @@ GameObject:
   - component: {fileID: 2113977692}
   - component: {fileID: 2113977691}
   m_Layer: 5
-  m_Name: LASER (6)
+  m_Name: Laser
   m_TagString: LASER
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10751,7 +10959,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 144229202}
+  m_Father: {fileID: 445930004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.906}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10859,7 +11067,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -10871,7 +11079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (4)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -10927,7 +11135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10986,7 +11194,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 445350830}
+    m_TransformParent: {fileID: 735837818}
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
@@ -10998,7 +11206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
-      value: Climbable Platform (15)
+      value: Climbing Platform
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -11054,7 +11262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12396.635
+      value: -12396.634
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11113,7 +11321,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2033301296}
+    m_TransformParent: {fileID: 287160598}
     m_Modifications:
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_Pivot.x
@@ -11165,15 +11373,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 60769237845028124, guid: 41743a6a5f9b65a43a9ed8b9ffce4358, type: 3}
       propertyPath: m_AnchoredPosition.x
