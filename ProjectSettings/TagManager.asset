@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Climbable
   - Climbable Static
   - Climbable Move
   - Bullet
   - Switch
+  - LASER
+  - SOLID
+  - FALLING
   layers:
   - Default
   - TransparentFX
