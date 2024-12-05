@@ -132,15 +132,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -168,11 +184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -249,15 +265,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -285,11 +317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -503,15 +535,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -539,11 +587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -774,8 +822,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1912224606}
+  m_Children: []
   m_Father: {fileID: 1253127575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -793,15 +840,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -829,11 +892,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -910,15 +973,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -946,11 +1025,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -1037,15 +1116,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -1073,11 +1168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -1164,15 +1259,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -1200,11 +1311,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -1854,15 +1965,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -1890,11 +2017,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -2316,15 +2443,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 450
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 200
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -2352,11 +2495,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 450
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -2596,15 +2739,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 623.51
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 268.28
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -2632,11 +2791,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 623.51
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 268.28
+      value: 372
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -4008,8 +4167,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FollowSpeed: 2
-  target: {fileID: 903752906}
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!224 &557430872 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
@@ -4578,15 +4757,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -4614,11 +4809,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -4784,15 +4979,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 17348.87
+      value: 1519
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 429.62
+      value: 1223
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -4820,11 +5031,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 17348.87
+      value: 1519
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 429.62
+      value: 1223
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -4868,11 +5079,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -108.4
+      value: -1060
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2748
+      value: -3152
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4937,15 +5148,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -4973,11 +5200,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -5054,11 +5281,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
@@ -5066,6 +5293,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
@@ -5094,11 +5337,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -5357,8 +5600,7 @@ GameObject:
   - component: {fileID: 903752906}
   - component: {fileID: 903752907}
   - component: {fileID: 903752909}
-  - component: {fileID: 903752911}
-  - component: {fileID: 903752910}
+  - component: {fileID: 903752908}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -5374,7 +5616,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903752905}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -339.00012, y: -1694.2002, z: 858819.1}
+  m_LocalPosition: {x: 0, y: 0, z: 858819.1}
   m_LocalScale: {x: 8.085, y: 8.085, z: 2.6950002}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5400,7 +5642,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handL: {fileID: 495532787}
   handR: {fileID: 1655210776}
-  headP: {fileID: 903752905}
 --- !u!212 &903752908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5499,15 +5740,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -5535,11 +5792,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -5756,6 +6013,90 @@ MonoBehaviour:
   isBlinking: 0
   BlinkingP: {fileID: 948199882}
   platformType: 3
+--- !u!1 &948209068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 948209069}
+  - component: {fileID: 948209070}
+  m_Layer: 0
+  m_Name: image__4_-removebg-preview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &948209069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948209068}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 186.8, y: 19, z: -8259.948}
+  m_LocalScale: {x: 1558.6228, y: 1558.6228, z: 1558.6228}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061261340}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &948209070
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948209068}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -100
+  m_Sprite: {fileID: 21300000, guid: 7e384c07a1307834eb1ddf30418bd30e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.83, y: 4.84}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &994769400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6330,6 +6671,7 @@ RectTransform:
   - {fileID: 1490982138}
   - {fileID: 1040141094}
   - {fileID: 387210566}
+  - {fileID: 948209069}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6488,15 +6830,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -6524,11 +6882,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -7055,15 +7413,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -7091,11 +7465,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -7534,15 +7908,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -7570,11 +7960,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -8377,15 +8767,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -8413,11 +8819,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -8546,15 +8952,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -8582,11 +9004,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -9096,15 +9518,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -9132,11 +9570,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -9218,15 +9656,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -9254,11 +9708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -9822,15 +10276,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -9858,11 +10328,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -9934,109 +10404,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
   m_PrefabInstance: {fileID: 1858048008}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1912224605
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1912224606}
-  - component: {fileID: 1912224609}
-  - component: {fileID: 1912224608}
-  - component: {fileID: 1912224607}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: SOLID
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1912224606
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912224605}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 50946287}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128, y: -2802}
-  m_SizeDelta: {x: 1900, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!50 &1912224607
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912224605}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &1912224608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912224605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1912224609
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1912224605}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1919560813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10047,15 +10414,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -10083,11 +10466,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -10501,15 +10884,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -10537,11 +10936,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -11076,15 +11475,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -11112,11 +11527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
@@ -11203,15 +11618,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 1044883221603565329, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Size.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 4819597109028547014, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Name
       value: Climbing Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56b632884989c1842bd7b82afade9f5d, type: 3}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904009205583549500, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_Pivot.x
@@ -11239,11 +11670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 152.8
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 152.8
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8944242668312737434, guid: 77eaff2306b99e645980a2597fa6b337, type: 3}
       propertyPath: m_LocalScale.x
